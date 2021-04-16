@@ -27,3 +27,28 @@ ul li:hover{
     background-color: #fff;
     transform: scale(1.2);
 }
+
+@media only screen and (max-width: 600px) {
+    .social-menu-container{
+        bottom: 1%; 
+         left: 0;
+        right: 0;
+    }
+    ul{
+        text-align: center;
+    }
+    .wave{
+        display: none;
+    }
+    .bigwave{
+        display: block;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .wave{
+        display: block;
+    }
+    .bigwave{
+        display: none;
+    }
+}
