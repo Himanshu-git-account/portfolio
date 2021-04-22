@@ -3,6 +3,10 @@ import selfImage from '../../assets/filename.jpg'
 const Header = () =>{
     return (
         <div className="header-container">
+            {/* <div className="button-container">
+            <button>Blog</button>
+            <button> Downloads </button>
+            </div> */}
             <div className="text-container">
                 <div className="introduction">
                     <span style={{color:'#9DAAF2'}}>Hi,  </span> My name is <span style={{color:'#FF6A3D'}}>Himanshu</span><br/>

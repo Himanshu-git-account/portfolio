@@ -14,6 +14,7 @@ const Footer = () =>{
                 <li><a href="https://www.facebook.com/himanshualways4u" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={['fab', 'facebook']} color={'#3b5999'} /></a></li>
                 <li><a href="mailto:khimanshu0507@gmail.com" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={['fab', 'google']} color={'#dd4b39'}/></a></li>
                 <li><a href="https://www.linkedin.com/in/kumar-himanshu-9b7a1212a" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={['fab', 'linkedin-in']} color={'#0077B5'}/></a></li>
+                <li><a href="https://codewithhimanshu.medium.com/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={['fab', 'medium']} color={'#02b875'}/></a></li>
                 </ul>
                 </div>
             </div>

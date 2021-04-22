@@ -1,0 +1,50 @@
+.blogs-Container{
+    background-color: #121514;
+    text-align: center
+}
+.blogs-header{
+    color: white;
+    font-size: 2.5rem;
+    padding: 5px;
+    letter-spacing: 1.2rem;
+}
+.card{
+    margin:0px auto;
+    background-color: white;
+    width:55%;
+    height: 30vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    overflow: hidden;
+    box-shadow: 5px 5px 8px #ff6a3d;
+}
+.blog-subject{
+    background-color: #ff6a3d;
+    color: white;
+    justify-content: center;
+  align-items: center;
+  display: flex;
+    flex-direction:column;
+    font-size: 1.8rem;
+    
+}
+.blog-topic{
+    text-align: left;
+    padding: 2%;
+}
+.logo{
+    width:40px;
+}
+.no-use{
+    padding: 15 5px 5px 5px;
+    color: #121514
+}
+.topic-heading{
+    font-size: 2rem;
+}
+.topic-description{
+    font-size: 1.2rem; 
+    margin-top:5px;
+}

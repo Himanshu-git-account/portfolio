@@ -8,6 +8,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 import ReactGA from 'react-ga';
+import { BlogsCard } from './Component/BlogsCard';
 
 library.add(fab, faCheckSquare, faCoffee)
 
@@ -22,6 +23,7 @@ function App() {
       <Header />
       <AboutMe />
       <TimeLines />
+      <BlogsCard />
       <Footer />
     </div>
   );
