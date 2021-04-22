@@ -48,3 +48,25 @@
     font-size: 1.2rem; 
     margin-top:5px;
 }
+@media only screen and (max-width: 600px) {
+    .card{
+     
+        width:90%;
+        height: 27vh;
+    }
+    .topic-heading{
+        font-size: 1.5rem;
+    }
+    .topic-description{
+        font-size: .8rem; 
+    }
+    .blog-subject{
+        font-size: 1.3rem;
+    }
+    .blogs-header{
+   
+        font-size: 2rem;
+       
+        letter-spacing: 0.8rem;
+    }
+}
