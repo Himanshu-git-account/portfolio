@@ -1,19 +1,47 @@
 import './index.css'
 import selfImage from '../../assets/filename.jpg'
 const Header = () =>{
+    //code to add scroll
+    // var scrollOpacity = { color: 'red'}
+    // window.addEventListener('scroll',listenToScroll);
+    // function listenToScroll() {
+    //     const winScroll =
+    //       document.body.scrollTop || document.documentElement.scrollTop
+      
+    //     const height =
+    //       document.documentElement.scrollHeight -
+    //       document.documentElement.clientHeight
+      
+    //     const scrolled = winScroll / height;
+    //     console.log(scrolled);
+    //     if(scrolled > 0.03){
+    //         scrollOpacity={
+    //             color: "DodgerBlue"
+    //         }
+    //     }
+       
+    //   }
     return (
-        <div className="header-container">
-            {/* <div className="button-container">
-            <button>Blog</button>
-            <button> Downloads </button>
-            </div> */}
+        <div className="header-container" >
+            <div className="button-container">
+            <button className="btn">Blogs</button>
+            <button className="btn"> Download Resume </button>
+            </div>
             <div className="text-container">
                 <div className="introduction">
+                    <div>
                     <span style={{color:'#9DAAF2'}}>Hi,  </span> My name is <span style={{color:'#FF6A3D'}}>Himanshu</span><br/>
-                    I'm a Front-end <span style={{color:'#FF6A3D'}}>Web Developer</span><br/>
+                    </div>
+                    <div>
+                    I'm a Front-end <span className="changeFont" style={{color:'#FF6A3D'}}>Web Developer</span><br/>
+                    </div>
                 </div>
                 <div className="image-container">
+                <div className="circle">
+                
                     <img src={selfImage} alt="selfimage" />
+                </div>
+              
                 </div>
             </div>
             <div className="custom-shape-divider-bottom-1617891093">
