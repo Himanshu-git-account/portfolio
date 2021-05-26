@@ -1,5 +1,5 @@
 .footer-container{
-    background-color: black;
+    background-color: #1e2761;
     position: relative;
    
 }
@@ -26,6 +26,10 @@ li{
 ul li:hover{
     background-color: #fff;
     transform: scale(1.2);
+}
+
+.mg-negative5{
+    margin-bottom: -5px;
 }
 
 @media only screen and (max-width: 600px) {

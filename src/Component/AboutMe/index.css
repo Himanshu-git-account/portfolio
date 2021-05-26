@@ -3,18 +3,24 @@
 .aboutme-container{
     text-align: center;
     padding-top: 3%;
-    background-color: #121514
+    background-color: #7a2048
 }
 .aboutme-text{
     padding: 2% 4%;
     color: #f2f2f2 ;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: 'Alegreya', serif;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
 }
 .aboutme-heading{
     color: #fff;
     font-size: 2rem;
     font-family: 'Train One', cursive;
     letter-spacing: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .aboutme-heading{
+        color: #fff;
+        font-size: 1.2rem;
+    }
 }

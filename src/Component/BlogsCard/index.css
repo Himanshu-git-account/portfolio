@@ -1,32 +1,29 @@
 .blogs-Container{
-    background-color: #121514;
+    background-color: #1e2761;
     text-align: center;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%),url('../../assets/bg.jpg');
-      background-position: center; /* Center the image */
-      background-repeat: no-repeat; /* Do not repeat the image */
-      background-size: cover;
+  
 }
 .blogs-header{
     color: white;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     padding: 5px;
-    letter-spacing: 1.2rem;
+    padding-top:10px; 
+    letter-spacing: 0.5rem;
 }
 .card{
     margin:20px auto;
     background-color: white;
     width:55%;
     height: 30vh;
-    border: 1px solid black;
     border-radius: 10px;
     display: grid;
     grid-template-columns: 30% 70%;
     overflow: hidden;
-    box-shadow: 5px 5px 8px #d0afa6;
+    box-shadow: 5px 5px 8px rgb(122, 32, 72);;
    
 }
 .blog-subject{
-    background-color: #8c827f;
+    background-color: rgb(122, 32, 72);
     color: white;
     justify-content: center;
   align-items: center;
@@ -58,7 +55,7 @@
     .card{
      
         width:90%;
-        height: 27vh;
+        height: 20vh;
     }
     .topic-heading{
         font-size: 1.5rem;
@@ -73,6 +70,6 @@
    
         font-size: 2rem;
        
-        letter-spacing: 0.8rem;
+        letter-spacing: 0.5rem;
     }
 }

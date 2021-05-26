@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Freckle+Face&family=Great+Vibes&family=Monoton&family=Pacifico&family=Righteous&display=swap');
 .header-container{
     background: linear-gradient(
-        rgba(7, 7, 8, 0.9), 
-        rgba(2, 2, 2, 1) 
+        rgb(30, 39, 97,0.9), 
+        rgb(30, 39, 97,1) 
       ),url('../../assets/social.jpg');
 
     background-position: center; /* Center the image */
@@ -14,8 +14,8 @@
 }
 .header-container:hover{
     background: linear-gradient(
-        rgba(1, 1, 1, 0.9), 
-        rgba(1, 1, 1, 1) 
+        rgb(30, 39, 97,0.9), 
+        rgb(30, 39, 97,1) 
       ),url('../../assets/social.jpg');
       transition: 1s ease;
 }
@@ -37,7 +37,7 @@
 }
 
 .custom-shape-divider-bottom-1617891093 .shape-fill {
-    fill: #121514;
+    fill: #7a2048;
 }
 .text-container{
     display: grid;

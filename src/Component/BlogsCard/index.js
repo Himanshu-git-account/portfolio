@@ -17,7 +17,7 @@ export const BlogsCard = () => {
                         Closure: This is the final destination
                     </div>
                     <div className="topic-description">
-                    A closure is a combination of a function bundled together with reference to its lexical environment. With the help of....
+                    A closure is a combination of a function bundled together with reference to its lexical environment. With the help of closure, an inner function can....
                     <br/><a href="https://codewithhimanshu.medium.com/closure-this-is-the-final-destination-138938707d8e" target="_blank" rel="noreferrer" >Read more</a>
                     </div>
                 </div>
